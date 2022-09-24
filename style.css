@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.chess{
+    margin-top: 50px;
+    max-width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template:repeat(8, 1fr)/repeat(8, 1fr) ;
+    margin: auto;
+    border: 5px solid rgb(173, 118, 15);
+}
+.chess-piece{
+    
+    background-color: rgb(189, 166, 124);
+    text-align: center;
+    
+    justify-content: center;
+}
+.blue{
+    background-color: rgb(99, 37, 9);
+}
+
+i{
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+   font-size: 25px;
+    padding-top: 15px;
+}
+.white{
+   
+    color: white;
+    border: white;
+    
+   
+}
+.black{
+   
+    color: black;
+    border:black;
+    
+   
+}
